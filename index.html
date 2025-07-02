@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
     <title>My Weather Application</title>
   </head>
   <body>
-    <header>
+    <div class="weather-app">
+      <header>
         <form>
-            <input type="search" placeholder="Enter a city..." required>
-            <input type="submit" value="Search">
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
         </form>
-    </header>
-    <main>
+      </header>
+      <main>
         <div>
-      <h1>Paris</h1>
-      <p>Tuesday 18:11, broken clouds
-        <br>
-        Humidity: 66%, Wind: 3.13km/h
-      </p>
-      </div>
-      <div>
-        🌥 14℃
-      </div>
-      
-    </main>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 18:11, broken clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌥 14℃</div>
+      </main>
 
-    
-    <footer>
-      This project was coded by
-      <a href="https://github.com/bree-nen" target="_blank">Bree Nen</a>, code
-      hosted on
-      <a href="https://github.com/bree-nen/My-Weather_App" target="_blank"
-        >GitHub</a
-      >
-      and website hosted on
-      <a href="https://meteo-global.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/bree-nen" target="_blank">Bree Nen</a>, code
+        hosted on
+        <a href="https://github.com/bree-nen/My-Weather_App" target="_blank"
+          >GitHub</a
+        >
+        and website hosted on
+        <a href="https://meteo-global.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
