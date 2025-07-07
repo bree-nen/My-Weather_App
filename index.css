@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  padding: 0 0 30px 0; 
+  padding: 0 0 30px 0;
 }
 .search-form-input {
   background-color: #fafafa;
@@ -33,62 +33,66 @@ header {
   font-family: "Playfair Display", serif;
 }
 
-.weather-app-data{
-    display: flex;
-    justify-content: space-between;
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
 }
 
-main{
-    padding: 30px 0;
+main {
+  padding: 30px 0;
 }
-.weather-app-city{
-    margin: 0;
-    font-size: 30px;
-    line-height: 15px;
+.weather-app-city {
+  margin: 0;
+  font-size: 30px;
+  line-height: 15px;
 }
-.weather-app-day{
-    font-size: 15px;
+.weather-app-date {
+  font-size: 15px;
 }
-.weather-app-temperature{
-    /*font-size: 50px;*/
-    font-weight: 500;
-    font-family: "Playfair Display", serif;
-    display: flex; 
+.weather-app-details span {
+  font-weight: 700;
 }
-.weather-app-temperature-value{
+
+.weather-app-temperature-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-app-temperature {
+  /*font-size: 50px;*/
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  line-height: 1;
+}
+.weather-app-temperature-value {
   font-size: 60px;
   font-weight: 300;
-  padding: 10px;
+  /*padding: 10px;*/
 }
-.weather-app-temperature-unit{
+.weather-app-temperature-unit {
   font-size: 28px;
   margin-top: 30px;
 }
+/*
 .material-symbols-outlined{
   font-size: 90px;
 }
-
-.weather-app-details{
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
+*/
+.weather-app-details {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
 }
-.weather-app-details strong{
- color: deeppink;
+.weather-app-details strong {
+  color: deeppink;
 }
-a{
-    color: pink;
-    font-weight: 600;
+a {
+  color: pink;
+  font-weight: 600;
 }
-footer{
-    border-top: 1px solid #f48db4;
-    padding: 30px 0 0 0;
-    font-size: 13px;
-    
-    text-align: center;
+footer {
+  border-top: 1px solid #f48db4;
+  padding: 30px 0 0 0;
+  font-size: 13px;
+  text-align: center;
 }
-
-
-
-
-

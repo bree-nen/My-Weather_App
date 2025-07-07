@@ -38,26 +38,35 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">
-            </h1>
-            <p class="weather-app-day">
+            <h1 class="weather-app-city" id="city"></h1>
+            <p class="weather-app-date">
               <span id="current-time"></span>
             </p>
           </div>
           <div class="weather-app-temperature">
-            <div class="weather-app-temperature-icon">
+            <div id="icon">
+              <!--
               <span class="material-symbols-outlined"> partly_cloudy_day </span>
+              
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+                class="weather-app-temperature-icon"
+                alt="weather icon"
+              />
+              --->
             </div>
-            <span class="weather-app-temperature-value" id="temperature"> </span>
+
+            <span class="weather-app-temperature-value" id="temperature">
+            </span>
             <span class="weather-app-temperature-unit"> ℃ </span>
           </div>
 
           <div class="weather-app-details">
-            <span id="description"></span> 
+            <span id="description"></span>
             <br />
             Humidity: <strong id="humidity"> </strong>,
-            <br>
-             Wind: <strong id="wind-speed"> </strong>
+            <br />
+            Wind: <strong id="wind-speed"> </strong>
           </div>
         </div>
       </main>
