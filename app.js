@@ -81,7 +81,7 @@ function displayForecast(response) {
   let forecastHtml = "";
 
   response.data.daily.forEach(function (day, index) {
-    if (index < 7) {
+    if (index < 7) {  // i know i can change this to <5 to fit inside but i like the design like that 
       forecastHtml =
         forecastHtml +
         `
