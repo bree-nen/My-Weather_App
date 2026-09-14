@@ -7,7 +7,7 @@
 <br>
 <br>
 
-<h2>✨ Features</h2>
+<h2>☃️ Features</h2>
 <br>
 🌤️ Current Weather — View current temperature and weather conditions.
 <br>
@@ -17,12 +17,12 @@
 <br>
 🌍 Global Locations — Check weather information for cities around the world.
 <br>
-🎨 Modern UI — Clean and user-friendly interface.
+☄️ Modern UI — Clean and user-friendly interface.
 <br>
 ⚡ Real-Time Data — Weather information is retrieved through a weather API.
 <br>
 
-<h2>🛠️ Technologies Used</h2>
+<h2>☔️ Technologies Used</h2>
 <br>
 HTML
 <br>
@@ -38,12 +38,12 @@ Git & GitHub
 <br>
 <br>
 
-<h3>📸 Preview</h3>
+<h3>❄️ Preview</h3>
 https://meteo-global.netlify.app/
 <br>
 <br>
 
-<h2>🎯 Purpose of the Project</h2>
+<h2>🌪 Purpose of the Project</h2>
 <br>
 <p>Meteo Global was created to strengthen practical skills in front-end development, API integration, responsive design, and JavaScript/React development.</p>
 <br>
